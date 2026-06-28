@@ -1,0 +1,32 @@
+{
+  "name": "musixmatch-richsync",
+  "version": "1.0.0",
+  "description": "Word-by-word (richsync) synced lyrics from Musixmatch, via the token-based client flow. Zero dependencies.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc",
+    "example": "node --loader ts-node/esm example.ts"
+  },
+  "keywords": ["musixmatch", "lyrics", "richsync", "karaoke", "lrc", "synced-lyrics", "word-by-word"],
+  "author": "Adam Mezerai <volt@webtvmedia.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ybenyedder/musixmatch-richsync.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

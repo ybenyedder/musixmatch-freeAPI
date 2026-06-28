@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musixmatch-richsync"
+version = "1.0.0"
+description = "Word-by-word (richsync) synced lyrics from Musixmatch, via the token-based client flow. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Adam Mezerai", email = "volt@webtvmedia.net" }]
+keywords = ["musixmatch", "lyrics", "richsync", "karaoke", "lrc", "synced-lyrics", "word-by-word"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+
+[project.urls]
+Homepage = "https://github.com/ybenyedder/musixmatch-richsync"
+
+[tool.setuptools]
+packages = ["musixmatch_richsync"]
