@@ -1,4 +1,4 @@
-# musixmatch-richsync
+# musixmatch-freeAPI
 
 **Word-by-word (richsync) synced lyrics from Musixmatch — the timing that powers karaoke.**
 
